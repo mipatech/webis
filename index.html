@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>WebGIS statico</title>
+  <meta charset="utf-8">
+  <title>WebGIS Professionale</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    body { margin: 0; }
-    #map { height: 100vh; width: 100vw; }
-  </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-measure/dist/leaflet-measure.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="sidebar">
+    <h2>Attributi</h2>
+    <div id="info"></div>
+  </div>
   <div id="map"></div>
+
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="main.js"></script>
+  <script src="https://unpkg.com/leaflet-measure/dist/leaflet-measure.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
